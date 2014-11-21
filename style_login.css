@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+}
+body{
+background:-webkit-linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
+              -webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
+background-size: cover;
+margin:auto 0;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+}
+ 
+/*To Centralize Form On The Page*/
+form{
+width:300px;
+margin:auto;
+}
+h1{
+font-size:40px;
+margin-bottom:15px;
+ 
+/*Text Shadow Effects For Header*/
+text-shadow:#436ec9 4px 4px 5px;
+}
+ 
+/* Label Styling */
+label{
+color:#a7bde8;
+}
+input{
+    width: 230px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #5d8ada;
+ 
+    /*Shadow For Input (Text Box Field)*/
+    -moz-box-shadow: 0px 0px 2px white;
+    -webkit-box-shadow: 0px 0px 2px white;
+ 
+}
+ 
+input:hover {
+    /*Shadow For Input (Text Box Field) On HOVER*/
+    -webkit-box-shadow: 0px 0px 10px #ffffff;
+    -moz-box-shadow: 0px 0px 10px #ffffff;
+ 
+}
+ 
+input.submit
+{
+    width: 245px;
+    margin-top:10px;
+    font-size:medium;
+    font-weight:bold;
+ 
+/*Elements to be animated and duration */
+    -webkit-transition-property: -webkit-box-shadow, background;
+    -webkit-transition-duration: 0.25s;
+ 
+}
+ 
+input.submit:hover
+{
+    background:#a7bde8;
+ 
+    /*Shadow For Submit Button On HOVER*/
+    -moz-box-shadow: 0px 0px 10px white;
+    -webkit-box-shadow: 0px 0px 10px white;

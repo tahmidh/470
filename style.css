@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	overflow: hidden;
+}
+html {
+  height: 100%;
+}
+.buttons{
+	border: 5px solid black;
+	padding: 3px 15px;
+	color: rgb(255,255,255);
+}
+a, a:visited, a:link{
+	text-decoration:none;
+	font-family: Verdana;
+}
+a:active{
+	color: red;
+}
+
+a:hover{
+	background-color: yellow;
+	font-size: large;
+}
+body{
+background:-webkit-linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
+           -webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
+margin:auto 0;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+}
+h1{
+font-size:40px;
+margin-bottom:15px;
+ 
+/*Text Shadow Effects For Header*/
+text-shadow:#436ec9 4px 4px 5px;
+}
+/*from bill*/
+.left_align{
+	font-size: 16px;
+	font-family: Verdana;
+	line-height:200%;
+	border: 2px solid black;
+	width: 620px;
+	float: left;
+	margin: 30px 0px 0 100px;
+
+}
+.left_align_login{
+	float: left;
+	margin: 10px 0px 0 270px;
+
+}
+.right_align{
+	font-size: 16px;
+	font-family: Verdana;
+	line-height:200%;
+	border: 2px solid black;
+	width: 500px;
+	float: right;
+	margin: 10px 0px 0 200px ;
+}
+
+.right_align_p{
+	font-size: 16px;
+	font-family: Verdana;
+	line-height:200%;
+	border: 2px solid black;
+	width: 620px;
+	float: left;
+	margin: 10px 0px 0 100px ;
+}
+
+.right_align_patient{
+	font-size: 16px;
+	font-family: Verdana;
+	line-height:200%;
+	border: 2px solid black;
+	width: 300px;
+	float: right;
+	margin: 50px 0px 0 200px ;
+}
+
+.right_align_patient_p{
+	font-size: 16px;
+	font-family: Verdana;
+	line-height:200%;
+	border: 2px solid black;
+	width: 300px;
+	float: right;
+	margin: 30px 0px 0 100px ;
+}
+
+hr{
+	width: 500px;
+	margin-left: 350px;
+	height: 20px;
+	border-radius: 40px 40px 40px 40px;
+}
+/*from bill*/
+
+#log_out{
+	float:right;
+}
+
+#h{
+border: 2px solid black;
+height: 350px;
+width: 300px;
+}
+.patient_details{
+	font-size: 16px;
+	font-family: Verdana;
+	line-height:200%;
+	border: 2px solid black;
+	width: 500px;
+}
+
+#employee_list td{
+	border: 1px solid black;
+	line-height:150%;
+	padding: 13px 13px;
+}
+
+#employee_list_color{
+	background-color: RGB(187,222,230);
+	font-weight: bold;
+}
+
+.dyn_patient{
+	font-family: Verdana;
+	font-size: bolder;
+	color: rgb(255,255,255);
+}
+#upper_layer{
+	margin: 0px 0px 0px 135px;
+	padding: 6px 0px;
+}
+
+#names{
+	height: 25px;
+	width: 200px;  
+	font-size: 18px;
+    
+}
+#pass{
+	height: 25px;
+	width: 200px;
+	font-size: 14px;  
+    
+}
+
+#design{
+	margin-top: 18%;
+}
+
+#log_des{
+	color:black;
+	font-family: Verdana;
+	
+}
+
